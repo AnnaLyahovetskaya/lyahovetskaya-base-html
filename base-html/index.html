@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>blocks</title>
 </head>
-<body> 
-   <p>
-    <span style="background:#FF8C00;"> 
-       <b> HTML-документ </b>— это обычный текстовый документ, может быть создан как в обычном текстовом редактор
-(Блокнот), так и в специализированном, с подсветкой кода (Notepad++, Visual Studio Code и т.п.). HTML-документ
-имеет расширение .html.</p></span>
-<p><b>HTML-документ</b> состоит из дерева HTML-элементов и текста. Каждый элемент обозначается в исходном
-документе начальным (открывающим) и конечным (закрывающим) тегом (за редким исключением).</p>
-<p style="color: rgb(143, 48, 232);"><b>Начальный тег</b> показывает,<ins>где начинается элемент,</ins><b> конечный</b> — <ins>где заканчивается</ins>.
- Закрывающий тег образуется путем добавления слэша / перед именем тега: <i><имя тега>...</имя тега></i>. Между начальным и закрывающим тегами находится содержимое элемента — контент.</p>
-Например:
-<p style="color: blue;">1.Контент – Создаёт параграф</p>
-<p><span style="background:#ff0000;">2.<b> Контент </b> – Делает полужирное начертание</p></span>
-<p style="color:rgb(153, 255, 0);">3.<i> Контент </i> – Курсивное начертание</p>
-<p> Ляховецкая А.А. 06.02.2023</p>
+<body>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <style>
+.first
+ {
+    width:1550px;
+    height:250px;
+    background:#ffb702;
+    position:relative;
+}
+.second
+ {
+    width:1550px;
+    height:250px;
+    background:#099502;
+    position:relative;
+}
+.third
+ {
+    width:1550px;
+    height:250px;
+    background:#c60101;
+    position:relative;
+}
+* { /*удаление отступов> */
+    margin: 0;
+    padding: 0;
+   }
+</style>
 </body>
 </html>
